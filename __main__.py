@@ -1,5 +1,5 @@
-import mysql.connector
-con = mysql.connector.connect(host = 'localhost', user = 'root', database='sms_data', passwd = 'va@051206')
+#Update database and passwd details before runnnig.....
+import mysql.connector.con = mysql.connector.connect(host = 'localhost', user = 'root', database = %s , passwd = %s)
 
 def addst () :
     c = con.cursor()
